@@ -1,12 +1,65 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plantilla</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    
+    <div class="ctn-planilla">
+        <div class="ctn-datos">
+            <div class="empresa">
+                <h1>{$empresa}</h1>
+                <img src="./img/logonegro.png" alt="">
+            </div>
+            <div class="ctn-datos2">
+                <h2>{$nfactura}</h2>
+                <h3>{$nombre}{$apellido}</h3>
+                <h3>{$direccion}</h3>
+                <h4>{$telefono}</h4>
+            </div>
+        </div>
+        <div class="ctn-items">
+            <div class="items">
+                <h3>DESCRIPCIÓN</h3>
+                <h3>ITEM</h3>
+                <h3>CANTIDAD</h3>
+                <h3>TOTAL</h3>
+            </div>
+        </div>
+
+        <div class="ctn-itemprecio">
+            <div class="precio">
+                <h3>{$descripcion}</h3>
+                <h3>{$item}</h3>
+                <h3>{$cantidad}</h3>
+                <h3>{$total}</h3>
+            </div>
+
+            <div class="precio2">
+                <h3>{$descripcion}</h3>
+                <h3>{$item}</h3>
+                <h3>{$cantidad}</h3>
+                <h3>{$total}</h3>
+            </div>
+
+            <div class="precio">
+                <h3>{$descripcion}</h3>
+                <h3>{$item}</h3>
+                <h3>{$cantidad}</h3>
+                <h3>{$total}</h3>
+            </div>
+
+        </div>
+
+        <div class="ctn-total">
+            <h2>{$TOTAL}</h2>
+        </div>
+    </div>
 </body>
+
 </html>

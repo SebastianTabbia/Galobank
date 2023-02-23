@@ -1,5 +1,14 @@
 *{
-    margin: auto;
+    margin:0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    height: 297mm;
+    width: 210mm;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@import './paginas/index';
