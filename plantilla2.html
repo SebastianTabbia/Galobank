@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantilla2</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="plantilla2">
+        <div class="logo">
+            <div>
+                <img src="./img/logoblanco.png" alt="">
+                <h1>{$empresa}</h1>
+            </div>
+            <div class="ctn-contacto">
+                <div class="dat" >
+                    <h2>{$Fecha}</h2>
+                    <p>De</p>
+                    <h3>{$nombre}{$apellido}</h3>
+                    <h3>{$direccion}</h3>
+                    <h3>{$telefono}</h3>
+                </div>
+                <div class="dat2">
+                    <h2>{$Nfactura}</h2>
+                    <p>Para</p>
+                    <h3>{$nombreCliente}{$apellidoCliente}</h3>
+                    <h3>{$email}</h3>
+                    <h3>{$telefonoCliente}</h3>
+                </div>
+            </div>
+        </div>
+        <div class="items">
+            <div class="description">
+                <h3>DESCRIPCIÓN</h3>
+                <h3>ITEM</h3>
+                <h3>CANTIDAD</h3>
+                <h3>TOTAL</h3>
+            </div>
+        </div>
+        <div class="items-description">
+            <div class="price">
+                <h3>{$descripcion}</h3>
+                <h3>{$item}</h3>
+                <h3>{$cantidad}</h3>
+                <h3><strong>{$total}</strong></h3>
+            </div>
+
+            <div class="price2">
+                <h3>{$descripcion}</h3>
+                <h3>{$item}</h3>
+                <h3>{$cantidad}</h3>
+                <h3><strong>{$total}</strong></h3>
+            </div>
+
+            <div class="price">
+                <h3>{$descripcion}</h3>
+                <h3>{$item}</h3>
+                <h3>{$cantidad}</h3>
+                <h3><strong>{$total}</strong></h3>
+            </div>
+            <hr>
+
+        </div>
+        <div class="total">
+            <div class="total1">
+                <span>Subtotal</span><h2>$Subtotal</h2>
+                <span>Impuesto</span><h3>$impuesto</h3>
+                <span>Total</span><h4>{$TOTAL}</h4>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
